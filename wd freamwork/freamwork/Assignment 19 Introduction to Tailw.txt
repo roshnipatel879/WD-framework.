@@ -1,0 +1,25 @@
+Assignment 19: Introduction to Tailwind CSS
+Theory Assignment
+1.	What is Tailwind CSS and how it differs from traditional CSS frameworks?
+Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs without having to write custom CSS. Unlike traditional CSS frameworks like Bootstrap, which provide pre-designed components, Tailwind allows developers to design directly in the HTML using utilities.
+2.	Describe the concept of utility-first CSS and its advantages.
+Utility-first CSS means using single-purpose classes to style elements. This approach helps in:
+o	Reducing the need to write custom CSS.
+o	Faster prototyping and development.
+o	Better consistency and maintainability.
+o	Smaller CSS file size when using tools like PurgeCSS to remove unused styles.
+3.	List and explain at least five common Tailwind classes.
+o	text-center: Centers text horizontally.
+o	bg-blue-500: Sets the background color to blue with intensity 500.
+o	p-4: Adds padding of 1rem (16px).
+o	flex: Applies Flexbox layout to an element.
+o	hover:underline: Underlines the text when hovered.
+Assignment 20: Advanced Tailwind CSS Components
+Theory Assignment
+1.	Tailwind’s configuration file
+Tailwind’s configuration file (tailwind.config.js) allows developers to customize default themes, add new colors, spacing, fonts, and more. This makes it easier to create a unique design system.
+2.	Responsive designs using Tailwind’s breakpoints
+Tailwind’s breakpoints are mobile-first and allow responsive design using classes like sm:, md:, lg:, and xl:. For example, md:bg-red-500 applies a red background only on medium screens or larger.
+3.	Using custom colors and spacing
+Custom colors and spacing values can be added in the tailwind.config.js file under the theme section, ensuring a consistent design.
+
